@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+#dev-size{
+    font-size: 40px;
+}
 .dev-color{
     color: coral;
 
@@ -12,14 +15,28 @@ h1{
 .welcome{
     display: flex;
 }
+.goal{
+    display: flex;
+    margin-top: 8%;
+
+}
+#goal{
+    padding-left: 15%;
+    padding-right: 10%;
+}
 .half-width{
-    width: 40%;
-    padding-left: 5%;
+    width: 50%;
+    padding-left: 6%;
 }
 .half-width img{
-    width: 80%;
-    padding-left: 40%;
-    padding-top: 9%;
+    width: 90%;
+}
+#photo1{
+    padding-left: 20%;
+    padding-top: 3%;
+}
+#photo2{
+    width: 60%;
 }
 .button{
     background-color: transparent;
@@ -34,4 +51,31 @@ h1{
     background-image: linear-gradient(rgb(61, 61, 61), black);
     color: white;
     
+}
+#position1{
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width: 576px)
+{
+    #position1{
+        padding: 0px;
+        margin: 0px;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+}
+#position2{
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width: 576px)
+{
+    #position2{
+        padding: 0px;
+        margin: 0px;
+        display:flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
 }
