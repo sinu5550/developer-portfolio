@@ -1,11 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #edf1fd;
-    margin-left: 5%;
-    margin-right: 5%;
+   
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }
 #dev-size{
     font-size: 40px;
@@ -14,18 +16,15 @@ h1{
     color: coral;
 
 }
-.welcome{
+.flexible-container{
     display: flex;
 }
-.goal{
-    display: flex;
-    margin-top: 8%;
 
-}
 #goal{
     padding-left: 20%;
     padding-right: 0%;
 }
+
 .half-width{
     width: 50%;
     padding-left: 0%;
@@ -54,6 +53,15 @@ h1{
     color: white;
     
 }
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+   
+    
+}
+
 #position1{
     padding: 0px;
     margin: 0px;
@@ -70,6 +78,7 @@ h1{
 #position2{
     padding: 0px;
     margin: 0px;
+    margin-top: 5%;
 }
 @media (max-width: 998px)
 {
