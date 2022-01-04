@@ -61,6 +61,10 @@ h2{
     margin-right: 5%;
     border-radius: 5px;
 }
+.experience-item:hover{
+    background-color: rgb(27, 27, 27);
+    color:white;
+}
 #web-dev-exp{
     border-left: 7px solid;
     border-image: linear-gradient(red, purple);
@@ -71,6 +75,10 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 8;
+}
+#footer-center{
+    text-align: center;
+    margin-top: 10%;
 }
 .exp-position{
     margin-left: 5%;
