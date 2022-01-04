@@ -58,13 +58,28 @@ h2{
     margin-left: 5%;
     box-shadow: 10px 10px 40px gray;
     padding-left: 20px;
-   
-    
+    margin-right: 5%;
+    border-radius: 5px;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, purple);
+    border-image-slice: 8;
+
+}
+#beginer-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 8;
+}
+.exp-position{
+    margin-left: 5%;
 }
 
 #position1{
     padding: 0px;
     margin: 0px;
+    margin-left: 5%;
 }
 
 @media (max-width: 998px)
@@ -79,6 +94,7 @@ h2{
     padding: 0px;
     margin: 0px;
     margin-top: 5%;
+    margin-left: 5%;
 }
 @media (max-width: 998px)
 {
