@@ -9,3 +9,24 @@ h1{
     color: coral;
 
 }
+.welcome{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 40%;
+}
+.button{
+    background-image: linear-gradient(rgb(61, 61, 61), black);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.button :hover{
+    
+}
